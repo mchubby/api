@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node .",
-    "build": "tsc",
+    "build": "tsoa spec-and-routes && tsc",
     "watch": "tsc -w",
     "dev": "nodemon",
     "format": "prettier --write .",
@@ -37,7 +37,7 @@
   },
   "homepage": "https://api.genshin.dev/",
   "devDependencies": {
-    "@types/express": "*",
+    "@types/body-parser": "*",
     "@types/keyv": "^3.1.1",
     "@types/koa": "^2.11.6",
     "@types/koa-helmet": "^6.0.1",
