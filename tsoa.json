@@ -1,0 +1,11 @@
+{
+  "entryFile": "src/index.ts",
+  "controllerPathGlobs": ["src/routes/*.ts"],
+  "spec": {
+    "outputDirectory": "build",
+    "specVersion": 3
+  },
+  "routes": {
+    "routesDir": "build"
+  }
+}
