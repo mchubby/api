@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/genshindev/api.git"
+    "url": "git+https://github.com/mchubby/api.git"
   },
   "author": {
-    "email": "contact@genshin.dev",
+    "email": "contact@example.org",
     "name": "genshin.dev",
     "url": "https://genshin.dev"
   },
@@ -37,11 +37,13 @@
   },
   "homepage": "https://api.genshin.dev/",
   "devDependencies": {
+    "@types/express": "*",
     "@types/keyv": "^3.1.1",
     "@types/koa": "^2.11.6",
     "@types/koa-helmet": "^6.0.1",
     "@types/koa-router": "^7.4.1",
     "@types/mime-types": "^2.1.0",
+    "@types/node": "*",
     "@types/sharp": "^0.26.1",
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
@@ -50,6 +52,7 @@
     "eslint-plugin-import": "^2.22.1",
     "nodemon": "^2.0.6",
     "prettier": "^2.2.1",
+    "tsoa": "*",
     "typescript": "^4.1.3"
   },
   "dependencies": {
